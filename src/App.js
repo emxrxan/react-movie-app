@@ -24,10 +24,10 @@ function App() {
         <Navigation />
 
         <Routes>
-          <Route path="/react-movie-app" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Search" element={<Search />} />
           <Route path={`/Genre`} element={<Genre />} />
-          <Route path="*" element={<h1>Page NotFound</h1>} />
+          {/* <Route path="*" element={<h1>Page NotFound</h1>} /> */}
         </Routes>
 
         <MovieDetails />
