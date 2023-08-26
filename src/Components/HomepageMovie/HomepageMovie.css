@@ -1,0 +1,46 @@
+.HomepageMovie-Container{
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 2rem;
+    box-shadow: 0 0 10rem var(--background);
+    border-radius: 0.8rem;
+    border: 1px solid var(--background);
+}
+
+.HomepageMovie-Container > h2{
+    margin-bottom: 1rem;
+}
+
+.movieList-container{
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 4rem;
+    overflow-x: scroll;
+}
+
+.movieList-container::-webkit-scrollbar{
+    height: 10px;
+}
+
+.movieList-container::-webkit-scrollbar-thumb{
+    background-color: var(--background);
+    border-radius: 1rem;
+}
+
+.movieList-container::-webkit-scrollbar-track{
+    border-bottom: 3px solid var(--background);
+    border-radius: 1rem;
+}
+
+@media (max-width:560px) {
+    .HomepageMovie-Container{
+        margin: 0.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .movieList-container{
+        gap: 1rem;
+    }
+}

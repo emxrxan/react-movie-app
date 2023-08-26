@@ -1,0 +1,9 @@
+.closeModal{
+    text-align: right;
+    padding: 1rem;
+    color:var(--color);
+    font-weight: bold;
+}
+
+.closeModal:hover{color: var(--background); cursor: pointer;}
+.closeModal:active{color: var(--color);}

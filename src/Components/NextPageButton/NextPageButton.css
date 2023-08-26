@@ -1,0 +1,19 @@
+.nextPage-Button{
+    margin-left: 1rem;
+}
+
+.nextPage-Button > button{
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+    background-color: var(--color);
+}
+
+.nextPage-Button > button:hover{
+    background-color: var(--background);
+    cursor: pointer;
+}
+
+.nextPage-Button > button:active{
+    background-color: var(--color);
+}

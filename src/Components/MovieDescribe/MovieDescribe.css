@@ -1,0 +1,10 @@
+.movieDescribe-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.movieDescribe-Container a{
+    color: var(--background);
+    word-wrap: break-word;
+}

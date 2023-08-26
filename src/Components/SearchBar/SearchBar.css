@@ -1,0 +1,17 @@
+.SearchBar-Container{
+    margin-left: 1rem;
+}
+
+.SearchBar-Container > input,
+.SearchBar-Container > button{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.SearchBar-Container > button{font-weight: bold;}
+.SearchBar-Container > button:hover{
+    background-color: var(--background);
+    cursor: pointer;
+}

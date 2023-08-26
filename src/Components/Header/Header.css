@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--color);
+    gap: 1rem;
+    background-color: var(--darkBlue);
+}
+
+.header-icon{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 1rem;
+}
+
+.header-icon:first-child{
+    cursor: default;
+    color: var(--color);
+}
+
+.header-icon > a{
+    color: var(--color);
+    text-decoration: none;
+}
+
+.header-icon > a:hover{
+    color: var(--background);
+    text-decoration: underline;
+}
+
+@media (max-width:522px) {
+    .header-icon{
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+}

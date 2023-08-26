@@ -1,0 +1,28 @@
+.navigation-container{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.navigation-div-container{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.navigation-div-container,
+.navigation{
+    color: var(--color);
+    text-decoration: none;
+}
+
+.navigation-div-container:hover,
+.navigation:hover{
+    color: var(--background);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navigation-div-container:active,
+.navigation:active{
+    color: var(--color);
+}
